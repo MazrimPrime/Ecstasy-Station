@@ -5,7 +5,7 @@
 
 
 GLOBAL_LIST_INIT(announcer_type_keys, list(
-		"Use Station Default" = null,
+		"Use Station Default" = /datum/centcom_announcer/default,
 		"Tibbets" = /datum/centcom_announcer/intern/tibbets,
 		"Lait" = /datum/centcom_announcer/default/lait,
 		"Dagoth Ur" = /datum/centcom_announcer/dagoth_ur,
