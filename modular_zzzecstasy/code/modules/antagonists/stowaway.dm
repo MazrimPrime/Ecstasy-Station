@@ -89,6 +89,7 @@
 	back = /obj/item/storage/backpack
 	l_hand = /obj/item/multitool
 	r_hand = /obj/item/radio
+	underwear = /obj/item/clothing/underwear/briefs
 
 	belt_contents = list(
 		/obj/item/screwdriver,
