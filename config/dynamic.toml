@@ -744,3 +744,20 @@ max_antag_cap.denominator = 24
 repeatable_weight_decrease = 2
 repeatable = 1
 minimum_required_age = 0
+
+["Roundstart Stowaway"]
+weight = 100
+min_pop = 0
+blacklisted_roles = [
+	"Captain",
+	"Head of Personnel",
+	"Head of Security",
+	"Warden",
+	"Security Officer",
+	"Detective",
+]
+min_antag_cap = 1
+max_antag_cap.denominator = 24
+repeatable_weight_decrease = 2
+repeatable = 1
+minimum_required_age = 0

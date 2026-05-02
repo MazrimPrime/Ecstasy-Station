@@ -2,3 +2,6 @@
 	. = ..()
 	if(!(TAG_OPFOR_ONLY in tags))
 		LAZYADD(tags, TAG_OPFOR_ONLY)
+	if((TAG_MINORANTAG in tags) && (TAG_OPFOR_ONLY in tags)) //Added on to stop splurt code from adding tags to stuff we don't want it to
+		LAZYREMOVE(tags, TAG_OPFOR_ONLY)
+
