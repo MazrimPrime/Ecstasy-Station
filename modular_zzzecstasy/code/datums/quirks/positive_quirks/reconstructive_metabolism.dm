@@ -1,14 +1,14 @@
 /datum/quirk/reconstructive_metabolism
 	name = "Reconstructive Metabolism"
-	desc = "Your body possesses a differentiated reconstructive ability, allowing you to slowly recover from light to moderate injuries. Critical injuries, wounds, and genetic damage will still require medical attention."
+	desc = "Your body possesses a highly reconstructive metabolism allowing you to rebuild body mass and damaged internals at a substantial rate as long as your fed."
 	value = 16
 	quirk_flags = QUIRK_PROCESSES
-	gain_text = span_notice("You feel a surge of reconstructive vitality coursing through your body...")
+	gain_text = span_notice("You feel a surge of reconstructive vitality coursing through your body and a gnawing pain in your stomach...")
 	lose_text = span_notice("You sense your enhanced reconstructive ability fading away...")
-	medical_record_text = "Patient possesses a Semi self-reconstructive condition. Medical care is required way less frequently"
+	medical_record_text = "Patient possesses a self-reconstructive metabolism. Medical care is required way less frequently"
 	species_blacklist = list(SPECIES_PODPERSON_WEAK,)
 	mob_trait = TRAIT_RECONSTRUCTIVE_METABOLISM
-	hardcore_value = -10
+	hardcore_value = -15
 	icon = FA_ICON_BRIEFCASE_MEDICAL
 
 /datum/quirk/reconstructive_metabolism/process(seconds_per_tick)
@@ -53,6 +53,6 @@
 
 	// Check if healing will be applied
 	if(need_mob_update)
-		// Subtrackt nutrition
+		// subtract nutrition
 		QH.nutrition -= (QH.get_brute_loss() + QH.get_fire_loss() + QH.get_tox_loss() + QH.get_oxy_loss()) / 10
 		QH.updatehealth()

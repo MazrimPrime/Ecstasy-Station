@@ -96,6 +96,15 @@ GLOBAL_LIST_INIT_TYPED(quirk_blacklist, /list/datum/quirk, list(
 	list(/datum/quirk/item_quirk/addict/junkie, /datum/quirk/concubus),
 	list(/datum/quirk/item_quirk/addict/smoker, /datum/quirk/concubus),
 	//SPLURT EDIT ADDITION END
+	//ECSTASY EDIT ADDITION BEGIN
+
+	//Would probably be too powerful, also it's just weird having both.
+	list(/datum/quirk/reconstructive_metabolism, /datum/quirk/restorative_metabolism),
+
+	//How do you both have powerful regenerating blood and a deficiency in it...
+	list(/datum/quirk/regenerative_blood, /datum/quirk/blooddeficiency),
+
+	//ECSTASY EDIT ADDITION END
 ))
 
 GLOBAL_LIST_INIT(quirk_string_blacklist, generate_quirk_string_blacklist())
