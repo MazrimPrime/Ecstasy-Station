@@ -12,7 +12,7 @@
 | Code                        | [https://github.com/MazrimPrime/Ecstasy-Station](https://github.com/MazrimPrime/Ecstasy-Station)                                       |
 | Wiki                        | [null](null)                                                                                                                           |
 | Codedocs                    | [https://splurt-station.github.io/S.P.L.U.R.T-tg](https://splurt-station.github.io/S.P.L.U.R.T-tg)                                     |
-| Ecstasy Station Discord     | [https://discord.gg/wynHVMzHzC]((https://discord.gg/RDGJWTC35F))                                                                         |
+| Ecstasy Station Discord     | [https://discord.gg/wynHVMzHzC](https://discord.gg/RDGJWTC35F)                                                                         |
 | Coderbus Discord            | [https://discord.gg/Vh8TJp9](https://discord.gg/Vh8TJp9)                                                                               |
 
 This is Ecstasy Station's downstream fork of S.P.L.U.R.T Station's, which is in turn a fork of bubberstation, which is in turn a fork of TG (formerly skyrat).
