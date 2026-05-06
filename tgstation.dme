@@ -10722,6 +10722,7 @@
 #include "modular_zzplurt\modules\primitive_production\code\primitive.dm"
 #include "modular_zzzecstasy\code\_globalvars\lists\quirks.dm"
 #include "modular_zzzecstasy\code\controllers\subsystem\dynamic\dynamic_ruleset_roundstart.dm"
+#include "modular_zzzecstasy\code\datums\quirks\negative_quirks\hungry.dm"
 #include "modular_zzzecstasy\code\datums\quirks\positive_quirks\functional_wings_quirk.dm"
 #include "modular_zzzecstasy\code\datums\quirks\positive_quirks\reconstructive_metabolism.dm"
 #include "modular_zzzecstasy\code\datums\quirks\positive_quirks\regenerative_blood.dm"
