@@ -1,8 +1,4 @@
-<p align="center">
-<img width="539" height="200" alt="splurtlogo" src="https://github.com/user-attachments/assets/69856f7c-58db-4927-a03a-717ec2aec6d6" />
-</p>
-
-## SPLURT Station (Bubberstation Downstream)
+## Ecstasy Station (SPLURT Station Downstream)
 
 [![CI Suite](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/actions/workflows/ci_suite.yml/badge.svg)](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/actions/workflows/ci_suite.yml)
 
@@ -12,14 +8,14 @@
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | Git / GitHub cheatsheet     | [https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833](https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833) |
 | Guide to Modularization     | [./modular_zzplurt/readme.md](./modular_zzplurt/readme.md)                                                                             |
-| Website                     | [https://splurt.space](https://splurt.space)                                                                                           |
-| Code                        | [https://github.com/SPLURT-Station/S.P.L.U.R.T-tg](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg)                                   |
-| Wiki                        | [https://wiki.splurt.space](https://wiki.splurt.space)                                                                                           |
-| Codedocs                    | [https://splurt-station.github.io/S.P.L.U.R.T-tg](https://splurt-station.github.io/S.P.L.U.R.T-tg)                                                   |
-| S.P.L.U.R.T Station Discord | [https://discord.gg/wynHVMzHzC](https://discord.gg/wynHVMzHzC)                                                                         |
+| Website                     | [null](null)                                                                                                                           |
+| Code                        | [https://github.com/MazrimPrime/Ecstasy-Station](https://github.com/MazrimPrime/Ecstasy-Station)                                       |
+| Wiki                        | [null](null)                                                                                                                           |
+| Codedocs                    | [https://splurt-station.github.io/S.P.L.U.R.T-tg](https://splurt-station.github.io/S.P.L.U.R.T-tg)                                     |
+| Ecstasy Station Discord     | [https://discord.gg/wynHVMzHzC]((https://discord.gg/RDGJWTC35F))                                                                         |
 | Coderbus Discord            | [https://discord.gg/Vh8TJp9](https://discord.gg/Vh8TJp9)                                                                               |
 
-This is S.P.L.U.R.T Station's downstream fork of bubberstation, which is in turn a fork of TG (formerly skyrat).
+This is Ecstasy Station's downstream fork of S.P.L.U.R.T Station's, which is in turn a fork of bubberstation, which is in turn a fork of TG (formerly skyrat).
 
 **Please note that this repository contains sexually explicit content and is not suitable for those under the age of 18.**
 
