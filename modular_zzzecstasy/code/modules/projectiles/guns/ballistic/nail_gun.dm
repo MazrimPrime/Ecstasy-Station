@@ -1,6 +1,6 @@
 /obj/item/gun/ballistic/automatic/nail_gun
 	name = "\improper Nail Gun"
-	desc = "A Nail Gun."
+	desc = "An industrial-grade nail gun modified to feed from detachable magazines. Intended for construction work, though it looks more than capable of putting nail's in things besides drywall."
 	abstract_type = /obj/item/gun/ballistic/automatic
 	icon =  'modular_zzzecstasy/icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "nail_gun"
@@ -31,8 +31,9 @@
 
 	pin = /obj/item/firing_pin
 
-/obj/item/gun/ballistic/automatic/nail_gun/Initialize(mapload)
+/obj/item/gun/ballistic/automatic/nail_gun/modified
+	desc = "An industrial-grade nail gun modified to feed from detachable magazines. Intended for construction work, though it looks more than capable of putting nail's in things besides drywall. This one seems to have also been modified to fire continuously."
+
+/obj/item/gun/ballistic/automatic/nail_gun/modified/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/automatic_fire, 0.2 SECONDS)
-
-

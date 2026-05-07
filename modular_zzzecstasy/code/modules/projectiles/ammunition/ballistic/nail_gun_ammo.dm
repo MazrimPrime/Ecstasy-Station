@@ -10,7 +10,12 @@
 
 /obj/item/ammo_casing/nail/update_icon_state()
 	if(!loaded_projectile)
-		qdel(src)
+		invisibility = 101
+		addtimer(CALLBACK(src, PROC_REF(proc_qdel), ), 0) //if I don't wait it tries to delete moving casing ;(
 		return
-
 	return ..()
+
+
+/obj/item/ammo_casing/nail/proc/proc_qdel()
+	qdel(src)
+	return

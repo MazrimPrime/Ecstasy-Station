@@ -12,4 +12,8 @@
 	spread = 50
 	speed = 0.75
 
+	muzzle_flash_intensity = 0
+	muzzle_flash_range = 0
+	muzzle_type = /obj/effect/projectile/muzzle/nothing
+
 
