@@ -4,6 +4,8 @@
 	var/charging_icon = "cell_in"
 	connector_type = null
 
+	var/ecstasy_item = FALSE
+
 /obj/item/stock_parts/power_store/cell/upgraded
 	icon_state = "upcell"
 	charging_icon = "upcell_in"
@@ -61,7 +63,13 @@
 	if(!(machine_stat & (BROKEN|NOPOWER)))
 		var/newlevel = round(charging.percent() * 4 / 100)
 		. += "ccharger-o[newlevel]"
-	if(!charging.charging_icon)
-		. += image(charging.icon, charging.icon_state)
-	else
-		.+= image('modular_skyrat/modules/aesthetics/cells/cell.dmi', charging.charging_icon)
+	if(charging.ecstasy_item == FALSE)
+		if(!charging.charging_icon)
+			. += image(charging.icon, charging.icon_state)
+		else
+			.+= image('modular_skyrat/modules/aesthetics/cells/cell.dmi', charging.charging_icon)
+	if(charging.ecstasy_item == TRUE)
+		if(!charging.charging_icon)
+			. += image(charging.icon, charging.icon_state)
+		else
+			.+= image('modular_zzzecstasy/icons/obj/machines/cell_charger.dmi', charging.charging_icon)

@@ -64,6 +64,10 @@ GLOBAL_LIST_INIT(stock_part_datums, generate_stock_part_datums())
 			return 5
 		if (4)
 			return 10
+		//Ecstasy ADD
+		if (5)
+			return 15
+		//Ecstasy ADD END
 		else
 			CRASH("Invalid level given to energy_rating: [tier]")
 

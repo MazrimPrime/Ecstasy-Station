@@ -1,5 +1,5 @@
 /datum/crafting_recipe/modified_nail_gun
-	name = "Modified Nail Gun"
+	name = "Auto Nail Gun"
 	result = /obj/item/gun/ballistic/automatic/nail_gun/modified
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	reqs = list(
