@@ -23,7 +23,8 @@
 		"super_quad_ultra_micro_laser",
 		"dark_matter_bin",
 		"vortex_cell",
-		"vortex_battery"
+		"vortex_battery",
+		"vortex_beaker"
 	)
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = TECHWEB_TIER_5_POINTS)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 250)
 
